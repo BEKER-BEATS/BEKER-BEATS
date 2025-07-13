@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>B'KER - Beats Callejeros</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #111;
+      color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #1a1a1a;
+      padding: 40px 20px;
+      text-align: center;
+      border-bottom: 3px solid #ff3d3d;
+    }
+    header img {
+      max-width: 180px;
+      margin-bottom: 10px;
+    }
+    header h1 {
+      font-size: 3em;
+      font-family: 'Impact', sans-serif;
+      letter-spacing: 3px;
+      margin: 10px 0;
+    }
+    header p {
+      color: #ccc;
+      font-size: 1.2em;
+    }
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+    .beats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .beat-card {
+      background: #222;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(255, 61, 61, 0.3);
+    }
+    .beat-card h3 {
+      margin-top: 0;
+      color: #ff3d3d;
+    }
+    audio {
+      width: 100%;
+    }
+    .buy-button {
+      display: inline-block;
+      margin-top: 10px;
+      background: #ff3d3d;
+      color: white;
+      padding: 10px 18px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    .buy-button:hover {
+      background: #e52a2a;
+    }
+    footer {
+      background: #1a1a1a;
+      padding: 25px 10px;
+      text-align: center;
+      color: #aaa;
+      margin-top: 40px;
+    }
+    footer a {
+      color: #ff3d3d;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo-bker.png" alt="B'KER Logo" />
+  <h1>B'KER</h1>
+  <p>Beats Callejeros | Hip-Hop & Underground</p>
+</header>
+
+<main>
+  <section class="beats">
+    <div class="beat-card">
+      <h3>Beat 1 - Estilo Boom Bap</h3>
+      <audio controls src="beats/boom_bap.mp3"></audio>
+      <a class="buy-button" href="https://beatstars.com/bker/beat1" target="_blank">Comprar Licencia</a>
+    </div>
+    <div class="beat-card">
+      <h3>Beat 2 - Trap Oscuro</h3>
+      <audio controls src="beats/trap_dark.mp3"></audio>
+      <a class="buy-button" href="https://beatstars.com/bker/beat2" target="_blank">Comprar Licencia</a>
+    </div>
+    <div class="beat-card">
+      <h3>Beat 3 - Lofi de Barrio</h3>
+      <audio controls src="beats/lofi_barrio.mp3"></audio>
+      <a class="buy-button" href="https://beatstars.com/bker/beat3" target="_blank">Comprar Licencia</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>Conecta conmigo:</p>
+  <a href="https://instagram.com/bkerbeats" target="_blank">Instagram</a>
+  <a href="https://youtube.com/bkerbeats" target="_blank">YouTube</a>
+  <a href="mailto:contacto@bkerbeats.com">Correo</a>
+</footer>
+
+</body>
+</html>
